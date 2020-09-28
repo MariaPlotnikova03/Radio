@@ -17,7 +17,7 @@ class RadioTest {
     @Test
     public void nextStationTestMaxBorder() {
         Radio radio = new Radio(9, 0, 10, 100, 0);
-        radio.setCurrentStation(9);
+        radio.setCurrentStation(10);
         radio.nextStation();
         assertEquals(0, radio.getCurrentStation());
     }
