@@ -9,6 +9,9 @@ public class Radio {
     private int minVolume = 0;
     private int currentVolume;
 
+    public Radio() {
+    }
+
     public Radio(int maxStation, int minStation, int radioStationCount, int maxVolume, int minVolume) {
         this.maxStation = maxStation;
         this.minStation = minStation;
